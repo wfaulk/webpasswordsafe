@@ -49,7 +49,12 @@
   <repository>
    <id>gilead-maven-repo</id>
    <name>Gilead repo</name>
-   <url>https://gilead.svn.sourceforge.net/svnroot/gilead/gilead/maven-repo/</url>
+   <url>https://raw.githubusercontent.com/wfaulk/webpasswordsafe/master/dependencies/maven-repo/</url>
+  </repository>
+  <repository>
+   <id>gilead-maven-support-repo</id>
+   <name>Gilead support repo</name>
+   <url>https://raw.githubusercontent.com/lmco/eurekastreams-mvn-repo/master/releases/</url>
   </repository>
   <repository>
     <id>jboss-public-repository-group</id>
