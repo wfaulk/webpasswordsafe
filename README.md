@@ -1,5 +1,11 @@
 # webpasswordsafe
 
+###Now compiles as of 29Mar2018
+* First install local versions of a few dependencies.
+    * these are specified in the install docs and appear to be modified versions of standard jars
+    * they are in dependencies/local, and there's an install-local.sh for the commands to run
+* Then run `mvn clean package` in the root dir
+
 *Web-based, multi-user, secure password safe/manager with delegated access controls*
 
 Open-source, web-based secure password safe for the enterprise that supports multiple users with delegated access controls. Simple to use, manage passwords and other sensitive secrets centrally in a secure database with industry standard pluggable strong encryption. Multiple users and groups can be added using pluggable authentication/authorization and role-based access controls. Fine-grained access controls can be defined on passwords to share with other authorized users in view only, view and update, or delegated granting modes. Reusable permission templates can be defined. Ability to organize passwords using friendly tags. Configurable strong password generation tool. Full audit trail of all password access events, many useful and configurable reports, as well as pluggable modules for external logging all audit events. History of old passwords can be kept. Exports can be done for disaster recovery purposes. Password retrieval also exposed via Web Services for automated processes.
