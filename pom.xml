@@ -51,11 +51,13 @@
    <name>Gilead repo</name>
    <url>https://raw.githubusercontent.com/wfaulk/webpasswordsafe/master/dependencies/maven-repo/</url>
   </repository>
+<!--
   <repository>
    <id>gilead-maven-support-repo</id>
    <name>Gilead support repo</name>
    <url>https://raw.githubusercontent.com/lmco/eurekastreams-mvn-repo/master/releases/</url>
   </repository>
+-->
   <repository>
     <id>jboss-public-repository-group</id>
     <name>JBoss Public Repository Group</name>
